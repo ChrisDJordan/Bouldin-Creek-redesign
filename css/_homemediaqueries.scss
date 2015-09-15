@@ -1,42 +1,152 @@
 @media screen and (min-width: 480px) {
-	header{
-		background:yellow;
-
-	}
+    header {
+        background: yellow;
+    }
     .home-hero {
-        min-height: 350px;
-        background-size: cover;
+        min-height: 360px;
         background-position: 100%;
         .hero-text {
-            // background: orange;
-            overflow: hidden;
-            width: 90% 20px;
             .welcome {
                 font-size: 2.5rem;
-                  margin-top: 180px;
+                margin-top: 188px;
             }
             .bouldin {
                 font-size: 4rem;
-                 margin-top: 29px;
+                margin-top: 37px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 550px) {
+    header {
+        background: purple;
+    }
+    .home-hero {
+        min-height: 450px;
+        .text-contain {
+            // margin-right:5%;
+            .hero-text {
+                overflow: hidden;
+                // width: 90% 0px;
+                .welcome {
+                    font-size: 2.5rem;
+                    margin-top: 7em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4rem;
+                    margin-top: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        background: black;
+    }
+    .home-hero {
+        min-height: 500px;
+        .text-contain {
+            .hero-text {
+                // background: orange;
+                overflow: hidden;
+                width: 90% 0px;
+                .welcome {
+                    font-size: 3rem;
+                    margin-top: 6.6em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4.5rem;
+                    margin-top: 2.1em;
+                }
             }
         }
     }
 }
 
 @media screen and (min-width: 768px) {
-	header{
-		background:pink;
-	}
+	@import "mixin";
+    header {
+        background: pink;
+    }
+    .home-hero {
+        min-height: 550px;
+        .text-contain {
+            // margin-right:8%;
+            .hero-text {
+                // background: orange;
+                overflow: hidden;
+                width: 90% 0px;
+                .welcome {
+                    font-size: 3.5rem;
+                    margin-top: 6.4em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4.8rem;
+                    margin-top: 2.4em;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
-	header{
-		background:blue;
-	}
+    header {
+        background: blue;
+    }
+    .container{
+    	width:80%;
+    }
+    .home-hero {
+        min-height: 650px;
+        .text-contain {
+            // margin-right:8%;
+            .hero-text {
+                // background: orange;
+                overflow: hidden;
+                width: 90% 0px;
+                .welcome {
+                    font-size: 3.5rem;
+                    margin-top: 8.2em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4.8rem;
+                    margin-top: 3.7em;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1200px) {
-	header{
-		background:green;
-	}
+    header {
+        background: green;
+    }
+    .home-hero {
+        min-height: 550px;
+           background-position: 100% -280px;
+        .text-contain {
+            // margin-right:8%;
+            .hero-text {
+                // background: orange;
+                overflow: hidden;
+                width: 90% 0px;
+                .welcome {
+                    font-size: 3.5rem;
+                    margin-top: 8.2em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4.8rem;
+                    margin-top: 3.7em;
+                }
+            }
+        }
+    }
 }
