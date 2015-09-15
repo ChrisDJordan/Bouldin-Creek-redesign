@@ -19,7 +19,7 @@ img {
 /* Header Nav
 ===================================*/
 header {
-    background: #2E3032;
+    background: $lightblue;
     // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;
@@ -28,7 +28,7 @@ header {
     z-index: 10;
     .wrap {
         max-width: 90%;
-        background: yellow;
+        // background: yellow;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -179,7 +179,7 @@ header {
 /* Food Section
 ===================================*/
 .food-section {
-    background: #a2cc9d;
+    background: #A4CC9F;
     padding: 60px 0 64px 0;
     h2 {
         color: white;
@@ -189,6 +189,7 @@ header {
     }
  a{
         padding-bottom:20px;
+        
      
     }
    
@@ -199,7 +200,7 @@ header {
 /* Drinks Section
 ===================================*/
 .drinks-section {
-    background: #a2cc9d;
+    background:  #A4CC9F;
     padding: 60px 0 64px 0;
     h2 {
         color: white;
@@ -213,7 +214,7 @@ header {
     }
 }
 
-/* Need To Know
+/* Events Section
 ===================================*/
 
 
@@ -221,7 +222,7 @@ header {
     background: $lightblue;
     padding: 60px 0 64px 0;
     h2 {
-        color: $darkred;
+             color:#fff;
          padding-top: 10px;
     }
     p {
@@ -232,10 +233,29 @@ header {
     }
      a{
         padding-bottom:20px;
+
+  
      
     }
 
 }
 
+
+
+/* Footer Section
+===================================*/
+
+footer{
+    padding: 60px 0 64px 0;
+    background:#332C29;
+    p{
+    text-align: center;
+    color:white;
+}
+}
+
+
+
 // @import "menu";
+@import "homemediaqueries";
 // @import "mediaqueries";

@@ -120,10 +120,10 @@ a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
-  font-size: 1.3rem;
+  font-size: 20px;
+  font-size: 1.2rem;
   text-decoration: none;
-  display: inline-block; }
+  display: block; }
 
 h1, h2, h3, h4, h5 {
   font-family: "tablet-gothic-compressed",sans-serif;
@@ -257,10 +257,10 @@ a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
-  font-size: 1.3rem;
+  font-size: 20px;
+  font-size: 1.2rem;
   text-decoration: none;
-  display: inline-block; }
+  display: block; }
 
 h1, h2, h3, h4, h5 {
   font-family: "tablet-gothic-compressed",sans-serif;
@@ -305,7 +305,7 @@ img {
 /* Header Nav
 ===================================*/
 header {
-  background: #2E3032;
+  background: #7edde1;
   width: 100%;
   overflow: hidden;
   padding: .5rem 0;
@@ -313,7 +313,6 @@ header {
   z-index: 10; }
   header .wrap {
     max-width: 90%;
-    background: yellow;
     margin: 0 auto;
     overflow: hidden; }
   header .logo {
@@ -422,7 +421,7 @@ header {
 /* Food Section
 ===================================*/
 .food-section {
-  background: #a2cc9d;
+  background: #A4CC9F;
   padding: 60px 0 64px 0; }
   .food-section h2 {
     color: white; }
@@ -434,7 +433,7 @@ header {
 /* Drinks Section
 ===================================*/
 .drinks-section {
-  background: #a2cc9d;
+  background: #A4CC9F;
   padding: 60px 0 64px 0; }
   .drinks-section h2 {
     color: white; }
@@ -443,13 +442,13 @@ header {
   .drinks-section a {
     padding-bottom: 20px; }
 
-/* Need To Know
+/* Events Section
 ===================================*/
 .events-section {
   background: #7edde1;
   padding: 60px 0 64px 0; }
   .events-section h2 {
-    color: #bf544b;
+    color: #fff;
     padding-top: 10px; }
   .events-section p {
     padding-bottom: 20px; }
@@ -457,5 +456,41 @@ header {
       padding-bottom: 0; }
   .events-section a {
     padding-bottom: 20px; }
+
+/* Footer Section
+===================================*/
+footer {
+  padding: 60px 0 64px 0;
+  background: #332C29; }
+  footer p {
+    text-align: center;
+    color: white; }
+
+@media screen and (min-width: 480px) {
+  header {
+    background: yellow; }
+
+  .home-hero {
+    min-height: 350px;
+    background-size: cover;
+    background-position: 100%; }
+    .home-hero .hero-text {
+      overflow: hidden;
+      width: 90% 20px; }
+      .home-hero .hero-text .welcome {
+        font-size: 2.5rem;
+        margin-top: 180px; }
+      .home-hero .hero-text .bouldin {
+        font-size: 4rem;
+        margin-top: 29px; } }
+@media screen and (min-width: 768px) {
+  header {
+    background: pink; } }
+@media screen and (min-width: 992px) {
+  header {
+    background: blue; } }
+@media screen and (min-width: 1200px) {
+  header {
+    background: green; } }
 
 /*# sourceMappingURL=style.css.map */
