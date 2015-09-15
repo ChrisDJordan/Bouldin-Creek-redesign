@@ -2,120 +2,110 @@
 
 
 
-
 /*! responsive-nav.js 1.0.39 by @viljamis */
-// .nav-collapse {
-//   // padding-top: 1.5em;
-//   // // margin:0 auto;
-//   // // margin-top: 10px;
-//   //  outline:1px solid blue;
-//   // overflow: hidden;
+.nav-collapse {
+    float: right;
+}
+ .underline{
+                 border-bottom: 3px solid #f9d76d;
 
-
-//  }
+            }
 .nav-collapse ul {
-   // margin-top:15px;
-
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  width:70px;
-  float:right;
-  margin-right:8%;
-   // margin-left:24px;
-
-
-
-
-
-
+    // padding: 20px 2px 0 0;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+           
 }
 
 .nav-collapse li {
-  margin-bottom: .5em;
-  // margin-right: 4%;
-  display:block;
-  text-align: right;
-   // float:left;
- 
+    display: block;
+    margin-bottom: 1em;
+    text-align: right;
+    a{
+         color:white;
+    }
+
 }
 
-// .nav-collapse li:first-of-type{
-//   margin-left:10px;
-// }
-
-.nav-collapse li:last-child{
-  margin-right: 0px;
-}
-
-.nav-collapse a {
-  color: white;
-  text-decoration: none;
-}
 
 .js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+    float: right;
 }
 
 .nav-collapse.opened {
-  max-height: 9999px;
+    max-height: 9999px;
+    padding-bottom: 30px;
 }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  color: white;
-  padding: 20px 2%;
-  display: block;
-  text-decoration: none;
-  overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    float: right;
+  min-height:0px;
+    text-decoration: none;
+     // margin:1rem 0 1rem 0;
 }
 
 .nav-toggle span {
-  color: $darkred;
-  font-size: 2em;
-  margin-top: -5px;
-  margin-right:8%;
-  float:right;
-  }
+    color:  #F5F6F5;
+ vertical-align:middle;
+ font-size:2.5rem;
 
-@media screen and (min-width: 55em) {
-  .js .nav-collapse {
-    position: relative;
-  }
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-  .nav-toggle {
-    display: none;
-  }
-
-  .nav-collapse{
-  width:40%;
-  }
-
-  .nav-collapse ul{
-   float:right;
-   border:1px solid black;
-   display:none;
-  }
-
-  .nav-collapse  li{
-  margin:0;
-  float:left;
-  }
-
+    
 
 }
 
-
+@media screen and (min-width: 992px) {
+    .nav-collapse {
+        // background:orange;
+        float: right;
+        overflow: hidden;
+    }
+    .nav-collapse ul {
+        // background:green;
+        overflow: hidden;
+        float: right;
+        padding: 0;
+    }
+    .nav-collapse li {
+        display: inline-block;
+        // background:blue;
+        justify-content: center;
+        margin: 20px 0 14px 30px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        &:nth-of-type(4)::after {
+            display: none;
+        }
+        a{
+             color:white;
+        }
+    }
+    .js .nav-collapse {
+        position: relative;
+        clear: none;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .nav-collapse.opened {
+        padding: 0;
+    }
+}

@@ -20,6 +20,49 @@ $gut:0%;
   
 
 
+    // grid----------------------------------------------------------------------
+    .col2 {
+        @include grid(2);
+    }
+    .col3 {
+        @include grid(3);
+        min-height: 50px;
+    }
+    .col4 {
+        @include grid(4);
+        background: red;
+        min-height: 500px;
+    }
+    .col5 {
+        @include grid(5);
+    }
+    .col6 {
+        @include grid(6);
+    }
+    .col7 {
+        @include grid(7);
+    }
+    .col8 {
+        @include grid(8);
+    }
+    .col9 {
+        @include grid(9);
+    }
+    .col10 {
+        @include grid(10);
+    }
+    .col11 {
+        @include grid(11);
+    }
+    .col12 {
+        @include grid(12);
+    }
+    .col16 {
+        @include grid(16);
+    }
+    // div:last-of-type {
+    //     margin-right: 0;
+    // }
 
 
 

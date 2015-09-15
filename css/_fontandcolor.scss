@@ -5,6 +5,8 @@ $darkblue: #0597f2;
 $lightgreen: #88bb28;
 $tan: #dac48f;
 $orange: #cc6806;
+$section-orange: #f36639;
+$section-yellow:#F0D565;
 
 p, a {
     font-family: "fira-sans-2", sans-serif;
@@ -20,14 +22,15 @@ p {
 a {
     font-size: 24px;
     font-size: 1.5em;
-    text-decoration: none;
+ 
+    display:inline-block;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: "tablet-gothic-compressed",sans-serif;
     font-style: normal;
     font-weight: 300;
-    margin-bottom: 12px;
+    padding-bottom:10px;
 }
 
 h1 {
@@ -38,8 +41,10 @@ h1 {
 
 h2 {
     font-size: 56px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #dac48f;
+
+
 }
 
 h3 {

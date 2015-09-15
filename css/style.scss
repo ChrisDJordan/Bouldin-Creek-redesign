@@ -3,108 +3,174 @@
 @import "responsive-nav";
 @import "fontandcolor";
 
-//global----------------------------------
+/* Main Styling
+===================================*/
 
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    // background:lightblue;
+}
+
+/* Header Nav
+===================================*/
 header {
-    background: $lightblue;
-    padding: 5px 0 5px 0;
-    min-height: 50px;
+    background: #2E3032;
+    // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;
-    p {
-        color: #bf544b;
-        font-size: 3em;
-        font-family: "tablet-gothic-compressed",sans-serif;
-        float: left;
-        margin-left: 3%;
+    padding: .5rem 0;
+    position: relative;
+    z-index: 10;
+    .wrap {
+        max-width: 90%;
+        background: yellow;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .logo {
+        display: inline-block;
+        overflow: hidden;
     }
 }
 
-// main section-------------------------------
+/* Hero Img and Text
+===================================*/
 
-section {
-    p, h1 {
-        margin-left: 5%;
-        max-width: 85%;
+.home-hero {
+    background: url(../images/home-hero.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: 100%;
+    .hero-container {
+        overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
+        // background: red;
+   
     }
-    .col10 {
-        h1 {
-            margin-top: 55px;
-        }
-        p {
-            margin-bottom: 60px;
-        }
-        img {
-            max-width: 100%;
-        }
-    }
-    .col6 {
-        display: none;
-    }
-}
-
-// links section------------------------------
-
-.links {
-    .col16 {
-        margin: 65px 0 45px 0px;
-        .link-left {
-            margin-bottom: 28px;
-            &:last-child {
-                margin-bottom: 0px;
-            }
-        }
-        li {
-            margin-left: 5%;
-            margin-bottom: 28px;
-            &:last-child {
-                margin-bottom: 0px;
-            }
-        }
-        .standard {
-            color: #bf544b;
-        }
-    }
-}
-
-// menu----------------------------------------
-section {
-    margin-bottom: 300px;
-}
-
-.menu {
-    h2, h3, h4, h5 {
-        margin-left: 5%;
-    }
-    h4 {
-        margin-top: 40px;
-    }
-    h5 {
-        margin-top: 30px;
-    }
-    p {
-        max-width: 75%;
-    }
-    .price {
+    .text-contain {
         float: right;
-        font-size: 1.5em;
-        margin-right: 4%;
-        font-family: "tablet-gothic-compressed",sans-serif;
+        padding-top: 125px;
+        // background: blue;
+   
+    }
+    .hero-text {
+        // background: orange;
+        overflow: hidden;
+        width: 90% 20px;
+        .welcome {
+            color: white;
+            font-family: "tablet-gothic-compressed",sans-serif;
+            // background: green;
+            display: block;
+            float: left;
+            font-size: 2rem;
+            clear: right;
+            margin-top: 133px;
+            margin-right: .2rem;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        }
+        .bouldin {
+            font-family: "tablet-gothic-compressed",sans-serif;
+            color: white;
+            // background: purple;
+            display: block;
+            float: left;
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        }
     }
 }
 
-footer {
-    background: #7edde1;
+/* About Section
+===================================*/
+
+.about-section {
+    background: $section-orange;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: white;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+}
+
+/* Contact Us Section
+===================================*/
+
+.contact-section {
+    background: $lightblue;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: $darkred;
+        padding-top: 10px;
+    }
+
+     p{
+        padding-bottom:5px;
+    }
+    a{
+        padding-bottom:10px;
+  
+    }
+}
+
+/* Location Section
+===================================*/
+.location-section {
+    background: $section-yellow;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: $darkred;
+        padding-top: 10px;
+    }
+    a{
+        padding-bottom:18px;
+    }
+   
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    float: left;
-    margin-top: 100px;
-    li {
-        float: left;
-        padding: 35px 0 35px 5%;
-    }
-    a {
-        color: #bf544b;
-    }
+    height: 100%;
 }
 
-@import "mediaqueries";
+/* Need To Know
+===================================*/
+
+
+.know-section {
+    background: #fff;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: $darkred;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+
+// @import "menu";
+// @import "mediaqueries";
