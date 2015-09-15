@@ -8,22 +8,36 @@ $orange: #cc6806;
 $section-orange: #f36639;
 $section-yellow:#F0D565;
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 p, a {
-    font-family: "fira-sans-2", sans-serif;
+    
+font-family: "fira-sans",sans-serif;
+font-style: normal;
+font-weight: 300;
     color: #4b4d48;
 }
 
 p {
-    font-size: 1rem;
-    font-size: 16px;
+    
+    font-size: 19px;
+      font-size: 1.1rem;
     line-height: 1.4;
+
 }
 
 a {
-    font-size: 24px;
-    font-size: 1.5em;
+    font-family: "fira-sans",sans-serif;
+font-style: normal;
+font-weight: 500;
+  font-size: 19px;
+      font-size: 1.1rem;
+      text-decoration: none;
  
     display:inline-block;
+
 }
 
 h1, h2, h3, h4, h5 {
