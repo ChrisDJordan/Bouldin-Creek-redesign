@@ -109,7 +109,7 @@ p, a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 300;
-  color: #4b4d48; }
+  color: #000; }
 
 p {
   font-size: 19px;
@@ -120,8 +120,8 @@ a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
-  font-size: 1.1rem;
+  font-size: 21px;
+  font-size: 1.3rem;
   text-decoration: none;
   display: inline-block; }
 
@@ -246,7 +246,7 @@ p, a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 300;
-  color: #4b4d48; }
+  color: #000; }
 
 p {
   font-size: 19px;
@@ -257,8 +257,8 @@ a {
   font-family: "fira-sans",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
-  font-size: 1.1rem;
+  font-size: 21px;
+  font-size: 1.3rem;
   text-decoration: none;
   display: inline-block; }
 
@@ -372,10 +372,12 @@ header {
   background: #7edde1;
   padding: 60px 0 64px 0; }
   .contact-section h2 {
-    color: #bf544b;
+    color: #fff;
     padding-top: 10px; }
   .contact-section p {
     padding-bottom: 5px; }
+    .contact-section p:last-of-type {
+      padding-bottom: 0; }
   .contact-section a {
     padding-bottom: 10px; }
 
@@ -388,7 +390,7 @@ header {
     color: #bf544b;
     padding-top: 10px; }
   .location-section a {
-    padding-bottom: 18px; }
+    padding-bottom: 20px; }
 
 .embed-container {
   position: relative;
@@ -410,8 +412,50 @@ header {
   background: #fff;
   padding: 60px 0 64px 0; }
   .know-section h2 {
-    color: #bf544b; }
+    color: #bf544b;
+    padding-top: 10px; }
   .know-section p {
-    padding-bottom: 10px; }
+    padding-bottom: 20px; }
+    .know-section p:last-of-type {
+      padding-bottom: 0; }
+
+/* Food Section
+===================================*/
+.food-section {
+  background: #a2cc9d;
+  padding: 60px 0 64px 0; }
+  .food-section h2 {
+    color: white; }
+  .food-section p {
+    padding-bottom: 20px; }
+  .food-section a {
+    padding-bottom: 20px; }
+
+/* Drinks Section
+===================================*/
+.drinks-section {
+  background: #a2cc9d;
+  padding: 60px 0 64px 0; }
+  .drinks-section h2 {
+    color: white; }
+  .drinks-section p {
+    padding-bottom: 20px; }
+  .drinks-section a {
+    padding-bottom: 20px; }
+
+/* Need To Know
+===================================*/
+.events-section {
+  background: #7edde1;
+  padding: 60px 0 64px 0; }
+  .events-section h2 {
+    color: #bf544b;
+    padding-top: 10px; }
+  .events-section p {
+    padding-bottom: 20px; }
+    .events-section p:last-of-type {
+      padding-bottom: 0; }
+  .events-section a {
+    padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

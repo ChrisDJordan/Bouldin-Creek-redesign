@@ -109,12 +109,15 @@ header {
     background: $lightblue;
     padding: 60px 0 64px 0;
     h2 {
-        color: $darkred;
+        color: #fff;
         padding-top: 10px;
     }
 
      p{
         padding-bottom:5px;
+         &:last-of-type{
+            padding-bottom:0;
+        }
     }
     a{
         padding-bottom:10px;
@@ -132,7 +135,7 @@ header {
         padding-top: 10px;
     }
     a{
-        padding-bottom:18px;
+        padding-bottom:20px;
     }
    
 }
@@ -162,15 +165,77 @@ header {
     padding: 60px 0 64px 0;
     h2 {
         color: $darkred;
+         padding-top: 10px;
     }
     p {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        &:last-of-type{
+            padding-bottom:0;
+        }
     }
 
 }
 
+/* Food Section
+===================================*/
+.food-section {
+    background: #a2cc9d;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: white;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+ a{
+        padding-bottom:20px;
+     
+    }
+   
+    
+}
 
 
+/* Drinks Section
+===================================*/
+.drinks-section {
+    background: #a2cc9d;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: white;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+     a{
+        padding-bottom:20px;
+
+    }
+}
+
+/* Need To Know
+===================================*/
+
+
+.events-section {
+    background: $lightblue;
+    padding: 60px 0 64px 0;
+    h2 {
+        color: $darkred;
+         padding-top: 10px;
+    }
+    p {
+        padding-bottom: 20px;
+        &:last-of-type{
+            padding-bottom:0;
+        }
+    }
+     a{
+        padding-bottom:20px;
+     
+    }
+
+}
 
 // @import "menu";
 // @import "mediaqueries";
