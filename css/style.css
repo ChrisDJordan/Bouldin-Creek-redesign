@@ -373,6 +373,35 @@ header {
     padding-bottom: 20px; }
   .food-section a {
     padding-bottom: 20px; }
+  .food-section .img-container {
+    position: relative;
+    width: 100%; }
+  .food-section img {
+    width: 100%; }
+  .food-section .img-overlay {
+    position: absolute;
+    width: 100%;
+    top: 0px; }
+  .food-section .img-overlay:after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  .food-section .content {
+    position: relative;
+    z-index: 2; }
+    .food-section .content p {
+      box-sizing: border-box;
+      font-size: 32px;
+      font-family: "tablet-gothic-compressed",sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      color: white;
+      padding: 18px 0 20px 20px; }
 
 /* Drinks Section
 ===================================*/
@@ -510,12 +539,25 @@ footer {
     background: pink; }
 
   h2 {
-    font-size: 60px;
-    margin-top: -12px; }
+    font-size: 50px;
+    margin-top: -10px; }
 
   p {
     font-size: 18px;
     padding: 0; }
+
+  .offset {
+    display: block;
+    background: #7edde1;
+    width: 15%;
+    min-height: 35px;
+    content: '';
+    margin-top: 35px;
+    float: right; }
+
+  .color {
+    background: #A4CC9F;
+    margin-top: -35px; }
 
   .home-hero .text-contain .hero-text {
     overflow: hidden;
@@ -529,31 +571,19 @@ footer {
       margin-top: 2.4em; }
 
   .about-section {
-    overflow: hidden;
-    padding: 50px 0 70px 0; }
+    padding: 50px 0 0 0; }
     .about-section p {
       padding: 0; }
 
   .contact-section {
-    overflow: hidden;
     padding: 0; }
     .contact-section .container {
       overflow: hidden;
       width: 100%; }
-    .contact-section .offset:before {
-      display: block;
-      background: red;
-      width: 20%;
-      min-height: 25px;
-      content: '';
-      float: right;
-      margin-top: -15px;
-      z-index: 10; }
     .contact-section .col5 {
-      padding-right: 0;
-      width: 50%; }
+      padding-right: 0; }
     .contact-section h2 {
-      padding-top: 38px;
+      padding-top: 50px;
       padding-left: 10%; }
     .contact-section a {
       font-size: 1.4rem;
@@ -567,11 +597,26 @@ footer {
     .location-section .container {
       width: 100%; }
     .location-section h2 {
-      padding-top: 38px;
+      padding-top: 50px;
       padding-left: 14%; }
     .location-section p {
       font-size: 1.5rem;
-      padding-left: 14%; } }
+      padding-left: 14%; }
+
+  .know-section {
+    padding: 0  0 0px 0; }
+    .know-section .container {
+      width: 100%; }
+    .know-section .col5 {
+      padding-right: 0; }
+    .know-section h2 {
+      padding-top: 50px;
+      padding-left: 10%; }
+    .know-section p {
+      padding-left: 10%;
+      font-size: 16px;
+      font-size: 1rem;
+      max-width: 70%; } }
 @media screen and (min-width: 992px) {
   header {
     background: blue; }
@@ -593,7 +638,7 @@ footer {
     background: green; }
 
   .container {
-    width: 100%; }
+    width: 90%; }
 
   .home-hero {
     min-height: 550px;
@@ -607,6 +652,9 @@ footer {
         margin-right: 5px; }
       .home-hero .text-contain .hero-text .bouldin {
         font-size: 4.8rem;
-        margin-top: 3.7em; } }
+        margin-top: 3.7em; }
+
+  .about-section p {
+    max-width: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
