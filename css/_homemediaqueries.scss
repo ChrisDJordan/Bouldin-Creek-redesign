@@ -69,12 +69,19 @@
 }
 
 @media screen and (min-width: 768px) {
-	@import "mixin";
+    @import "mixin";
     header {
         background: pink;
     }
+    h2 {
+        font-size: 60px;
+        margin-top: -12px;
+    }
+    p {
+        font-size: 18px;
+        padding: 0;
+    }
     .home-hero {
-        min-height: 550px;
         .text-contain {
             // margin-right:8%;
             .hero-text {
@@ -93,14 +100,77 @@
             }
         }
     }
+    .about-section {
+        overflow: hidden;
+        padding: 50px 0 70px 0;
+        p {
+            padding: 0;
+        }
+    }
+    .contact-section {
+        overflow: hidden;
+        padding: 0;
+        .container{
+        	 overflow: hidden;
+        	width:100%;
+        }
+
+        .offset{
+        	&:before{
+       display: block;
+    background: red;
+    width: 20%;
+    min-height: 25px;
+    content: '';
+    
+    float:right;
+    margin-top:-15px;
+    z-index:10;
+
+
+
+}
+
+
+        }
+        .col5{
+        	padding-right:0;
+        	width:50%;
+        }
+        h2 {
+            padding-top: 38px;
+                 padding-left: 10%;
+        }
+        a {
+            font-size: 1.4rem;
+            padding-left: 10%;
+        }
+        p{
+        	 padding-left: 10%;
+
+        }
+    }
+    .location-section {
+        overflow: hidden;
+        padding: 0;
+        .container {
+            width: 100%;
+        }
+        h2 {
+            padding-top: 38px;
+            padding-left: 14%;
+        }
+        p {
+            font-size: 1.5rem;
+            padding-left: 14%;
+        }
+
+    }
 }
 
 @media screen and (min-width: 992px) {
     header {
         background: blue;
-    }
-    .container{
-    	width:80%;
     }
     .home-hero {
         min-height: 650px;
@@ -128,9 +198,12 @@
     header {
         background: green;
     }
+    .container {
+        width: 100%;
+    }
     .home-hero {
         min-height: 550px;
-           background-position: 100% -280px;
+        background-position: 100% -280px;
         .text-contain {
             // margin-right:8%;
             .hero-text {
