@@ -396,7 +396,7 @@ header {
     z-index: 2; }
     .food-section .content p {
       box-sizing: border-box;
-      font-size: 32px;
+      font-size: 28px;
       font-family: "tablet-gothic-compressed",sans-serif;
       font-style: normal;
       font-weight: 300;
@@ -1051,7 +1051,10 @@ footer {
   .events-section h2 {
     padding-left: 12%; }
   .events-section a {
-    padding-left: 12%; } }
+    padding-left: 12%; }
+
+  footer p {
+    padding: 0; } }
 @media screen and (min-width: 992px) {
   header {
     background: blue; }
@@ -1067,7 +1070,10 @@ footer {
         margin-right: 5px; }
       .home-hero .text-contain .hero-text .bouldin {
         font-size: 4.8rem;
-        margin-top: 3.7em; } }
+        margin-top: 3.7em; }
+
+  .know-section p {
+    font-size: 18px; } }
 @media screen and (min-width: 1200px) {
   header {
     background: green; }
