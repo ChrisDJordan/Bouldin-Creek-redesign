@@ -1107,10 +1107,8 @@ footer {
   footer p {
     padding: 0; } }
 @media screen and (min-width: 992px) {
-  header {
-    background: blue; }
-    header .logo {
-      padding-top: 10px; }
+  header .logo {
+    padding-top: 10px; }
 
   .home-hero .hero-container {
     width: 75%; }
@@ -1138,9 +1136,6 @@ footer {
   .about-section .container, .drinks-section .container, .food-section .container {
     width: 75%; } }
 @media screen and (min-width: 1200px) {
-  header {
-    background: green; }
-
   .location-section .bicycle {
     display: block; }
   .location-section .bike-section {
