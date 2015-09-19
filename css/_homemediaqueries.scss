@@ -22,6 +22,9 @@
     header {
         background: purple;
     }
+    // .container{
+    //     width:80%;
+    // }
     .home-hero {
         min-height: 450px;
         .text-contain {
@@ -117,16 +120,14 @@
             overflow: hidden;
             width: 100%;
         }
+        h2, p, a {
+            padding-left: 10%;
+        }
         h2 {
             padding-top: 50px;
-            padding-left: 10%;
         }
         a {
             font-size: 1.4rem;
-            padding-left: 10%;
-        }
-        p {
-            padding-left: 10%;
         }
     }
     .location-section {
@@ -135,13 +136,15 @@
         .container {
             width: 100%;
         }
+        h2, p {
+            padding-left: 14%;
+        }
         h2 {
             padding-top: 50px;
-            padding-left: 14%;
         }
         p {
             font-size: 1.5rem;
-            padding-left: 14%;
+            max-width: 200px;
         }
     }
     .know-section {
@@ -149,36 +152,36 @@
         .container {
             width: 100%;
         }
+
+        h2,p{
+               padding-left: 12%;
+
+        }
         h2 {
             padding-top: 50px;
-            padding-left: 10%;
+         
         }
         p {
-            padding-left: 10%;
+          
             font-size: 16px;
             font-size: 1rem;
         }
-       
     }
-
-    .food-section{
-    	  .offset {
+    .food-section {
+        .offset {
             display: block;
             background: #fff;
             width: 15%;
             min-height: 35px;
             content: '';
-            margin-top:-60px;
-            
+            margin-top: -60px;
             float: right;
         }
         .color {
             background: #A4CC9F;
-            
         }
     }
     .drinks-section {
-     
         .offset {
             display: block;
             background: $lightblue;
@@ -192,21 +195,20 @@
             background: #A4CC9F;
             margin-top: -60px;
         }
+
+    h2, p, a {
+        padding-left: 12%;
     }
 
-    .events-section{
-    	h2{
-    		padding-left:12%;
-    	}
-    	a{
-    		padding-left:12%;
-
-    	}
     }
-
-    footer{
-        p{
-            padding:0;
+    .events-section {
+        h2, a {
+            padding-left: 12%;
+        }
+    }
+    footer {
+        p {
+            padding: 0;
         }
     }
 }
@@ -214,6 +216,12 @@
 @media screen and (min-width: 992px) {
     header {
         background: blue;
+        .logo {
+            padding-top: 10px;
+        }
+    }
+    h2 {
+        font-size: 65px;
     }
     .home-hero {
         min-height: 650px;
@@ -235,26 +243,38 @@
             }
         }
     }
-        .know-section {
-            p{
-                font-size:18px;
-            }
-
+    .know-section {
+        p {
+            font-size: 18px;
+            max-width: 400px;
         }
+    }
+    
+  .about-section,.drinks-section, .food-section,.events-section{
+.container{
+    width:75%;
+
+    }
+
 }
+
+}
+
+
+
 
 @media screen and (min-width: 1200px) {
     header {
         background: green;
     }
- 
-
-    .container {
-        width: 90%;
+    .location-section {
+        .bicycle {
+            display: block;
+        }
+        .bike-section {
+            background: black;
+        }
     }
-    h2{
-    		font-size:65px;
-    	}
     .home-hero {
         min-height: 550px;
         background-position: 100% -280px;
@@ -277,10 +297,24 @@
         }
     }
     .about-section {
-
         p {
             max-width: 500px;
+            font-size: 1.3rem;
         }
     }
-
+    .contact-section {
+        a {
+            font-size: 1.8rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    .location-section {
+        img {
+            width: 75%;
+            transform: rotate(10deg);
+            margin: 20px  auto 0 auto;
+        }
+    }
 }

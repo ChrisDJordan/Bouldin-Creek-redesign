@@ -6,15 +6,13 @@
 .nav-collapse {
     float: right;
 }
- .underline{
-                 border-bottom: 3px solid #f9d76d;
 
-            }
 .nav-collapse ul {
     // padding: 20px 2px 0 0;
     display: block;
     list-style-type: none;
     text-decoration: none;
+    // background:red;
            
 }
 
@@ -27,7 +25,10 @@
     }
 
 }
+ #link-color{
+                 color: #f9d76d;
 
+            }
 
 .js .nav-collapse {
     clip: rect(0 0 0 0);
@@ -43,6 +44,7 @@
 .nav-collapse.opened {
     max-height: 9999px;
     padding-bottom: 30px;
+     padding-top: 30px;
 }
 
 .nav-toggle {
@@ -109,3 +111,4 @@
         padding: 0;
     }
 }
+

@@ -17,10 +17,14 @@ img {
     // background:lightblue;
 }
 
+.bicycle{
+    display:none;
+}
+
 /* Header Nav
 ===================================*/
 header {
-    background: $lightblue;
+    background: #0AAED3;
     // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;
@@ -33,11 +37,16 @@ header {
         margin: 0 auto;
         overflow: hidden;
     }
-    .logo {
+    .logo{
         display: inline-block;
-        overflow: hidden;
+        font-size:30px;
+        color:white;
+       padding-top:6px;
+       font-family: "fira-sans",sans-serif;
+   
     }
 }
+
 
 /* Hero Img and Text
 ===================================*/
@@ -134,8 +143,10 @@ header {
         color: $darkred;
         padding-top: 10px;
     }
-    a {
+    p {
+        font-size:20px;
         padding-bottom: 20px;
+
     }
 }
 
@@ -286,6 +297,10 @@ footer {
         color: white;
     }
 }
+
+
+
+
 
 // @import "menu";
 @import "homemediaqueries";
