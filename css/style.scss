@@ -17,14 +17,12 @@ img {
     // background:lightblue;
 }
 
-.bicycle{
-    display:none;
-}
+
 
 /* Header Nav
 ===================================*/
 header {
-    background: #0AAED3;
+    background: #332C29;
     // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;
@@ -39,10 +37,9 @@ header {
     }
     .logo{
         display: inline-block;
-        font-size:30px;
+        font-size:36px;
         color:white;
-       padding-top:6px;
-       font-family: "fira-sans",sans-serif;
+   font-family: "tablet-gothic-compressed",sans-serif;
    
     }
 }
@@ -251,7 +248,7 @@ img {
 /* Drinks Section
 ===================================*/
 .drinks-section {
-    background: #a19ab3;
+    background: $lightblue;
     padding: 60px 0 64px 0;
     h2 {
         color: white;
@@ -269,7 +266,7 @@ img {
 ===================================*/
 
 .events-section {
-    background: $lightblue;
+    background: #a19ab3;
     padding: 60px 0 64px 0;
     h2 {
         color: #fff;
