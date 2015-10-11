@@ -331,20 +331,26 @@ header {
 ===================================*/
 .location-section {
   background: #F0D565;
-  padding: 60px 0 64px 0; }
+  padding: 60px 0 64px 0;
+  overflow: hidden; }
   .location-section h2 {
     color: #bf544b;
     padding-top: 10px; }
   .location-section p {
     font-size: 20px;
     padding-bottom: 20px; }
+  .location-section img {
+    display: none; }
+  .location-section h2, .location-section p {
+    padding-left: 14%; }
 
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0;
+  height: 1%;
   overflow: hidden;
-  max-width: 100%; }
+  max-width: 100%;
+  background: red; }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
@@ -1046,23 +1052,21 @@ footer {
 
   .location-section {
     overflow: hidden;
-    padding: 0; }
+    padding: 0px 0 0px 0; }
     .location-section .container {
       width: 100%; }
-    .location-section h2, .location-section p {
-      padding-left: 14%; }
     .location-section h2 {
       padding-top: 50px; }
     .location-section p {
       font-size: 1.5rem;
-      max-width: 200px; }
+      max-width: 300px; }
 
   .know-section {
     padding: 0  0 0px 0; }
     .know-section .container {
       width: 100%; }
     .know-section h2, .know-section p {
-      padding-left: 12%; }
+      padding-left: 10%; }
     .know-section h2 {
       padding-top: 50px; }
     .know-section p {
@@ -1093,7 +1097,7 @@ footer {
     background: #A4CC9F;
     margin-top: -60px; }
   .drinks-section h2, .drinks-section p, .drinks-section a {
-    padding-left: 12%; }
+    padding-left: 10%; }
 
   .events-section {
     padding: 0; }
@@ -1102,7 +1106,7 @@ footer {
     .events-section h2 {
       padding-top: 50px; }
     .events-section h2, .events-section a {
-      padding-left: 12%; }
+      padding-left: 10%; }
 
   footer p {
     padding: 0; } }
@@ -1134,34 +1138,14 @@ footer {
     max-width: 400px; }
 
   .about-section .container, .drinks-section .container, .food-section .container {
-    width: 75%; } }
-@media screen and (min-width: 1200px) {
-  .location-section .bicycle {
-    display: block; }
-  .location-section .bike-section {
-    background: black; }
+    width: 75%; }
 
-  .home-hero {
-    min-height: 550px;
-    background-position: 100% -280px; }
-    .home-hero .text-contain .hero-text {
-      overflow: hidden;
-      width: 90% 0px; }
-      .home-hero .text-contain .hero-text .welcome {
-        font-size: 3.5rem;
-        margin-top: 8.2em;
-        margin-right: 5px; }
-      .home-hero .text-contain .hero-text .bouldin {
-        font-size: 4.8rem;
-        margin-top: 3.7em; }
+  .location-section h2, .location-section p {
+    padding-left: 25%; }
+  .location-section p {
+    font-size: 30px; }
 
-  .about-section p {
-    max-width: 500px;
-    font-size: 1.3rem; }
-
-  .contact-section a {
-    font-size: 1.8rem; }
-  .contact-section p {
-    font-size: 1.4rem; } }
+  .events-section {
+    padding-left: 14%; } }
 
 /*# sourceMappingURL=style.css.map */
