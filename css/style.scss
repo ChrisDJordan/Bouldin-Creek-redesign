@@ -109,10 +109,7 @@ header {
         padding-bottom: 20px;
     }
 }
-.orange{
-    background:$section-orange;
-    width:100%;
-}
+
 
 /* Contact Us Section
 ===================================*/
@@ -190,10 +187,7 @@ header {
 
 /* Food Section
 ===================================*/
-    .green{
-    background: #A4CC9F;
-    width:100%;
-}
+
 .food-section {
     background: #A4CC9F;
     padding: 60px 5% 64px 5%;
@@ -261,11 +255,6 @@ img {
 /* Drinks Section
 ===================================*/
 
-    .blue{
-    background: $lightblue;
-    width:100%;
-}
-
 
 .drinks-section {
     background: $lightblue;
@@ -286,11 +275,7 @@ img {
 
 /* Events Section
 ===================================*/
-  .purple{
-     background: #a19ab3;
-    width:100%;
-
-  }
+  
 
 .events-section {
     background: #a19ab3;
@@ -327,7 +312,20 @@ footer {
     }
 }
 
+.orange{
+    background:$section-orange;
+    width:100%;
+}
+    .green{
+    background: #A4CC9F;
+    width:100%;
+}
 
+
+    .blue{
+    background: $lightblue;
+    width:100%;
+}
 
 
 

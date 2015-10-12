@@ -312,10 +312,6 @@ header {
   .about-section p {
     padding-bottom: 20px; }
 
-.orange {
-  background: #f36639;
-  width: 100%; }
-
 /* Contact Us Section
 ===================================*/
 .contact-section {
@@ -372,10 +368,6 @@ header {
 
 /* Food Section
 ===================================*/
-.green {
-  background: #A4CC9F;
-  width: 100%; }
-
 .food-section {
   background: #A4CC9F;
   padding: 60px 5% 64px 5%;
@@ -418,10 +410,6 @@ header {
 
 /* Drinks Section
 ===================================*/
-.blue {
-  background: #7edde1;
-  width: 100%; }
-
 .drinks-section {
   background: #7edde1;
   padding: 60px 5% 64px 5%;
@@ -435,10 +423,6 @@ header {
 
 /* Events Section
 ===================================*/
-.purple {
-  background: #a19ab3;
-  width: 100%; }
-
 .events-section {
   background: #a19ab3;
   padding: 60px 5% 64px 5%;
@@ -464,7 +448,16 @@ footer {
     text-align: center;
     color: white; }
 
-.menu-container {
+.orange {
+  background: #f36639;
+  width: 100%; }
+
+.green {
+  background: #A4CC9F;
+  width: 100%; }
+
+.blue {
+  background: #7edde1;
   width: 100%; }
 
 .about-menu-section {
@@ -476,12 +469,14 @@ footer {
   .about-menu-section p {
     padding-bottom: 20px; }
 
-.orange {
-  background: #f36639;
-  width: 100%; }
-
 .img-none {
   display: none; }
+
+.menu-items {
+  width: 90%;
+  margin: 0 auto;
+  background: red;
+  overflow: hidden; }
 
 .menu-links {
   padding: 0 5% 0 5%;
@@ -489,6 +484,24 @@ footer {
   margin: 0 auto; }
   .menu-links li {
     padding-bottom: 15px; }
+
+.food-fix {
+  padding: 0; }
+
+.col-lg-6 {
+  padding-bottom: 100px; }
+
+.heeey {
+  background: green;
+  overflow: hidden; }
+
+.plates {
+  background: purple;
+  overflow: hidden; }
+
+.tacos {
+  background: blue;
+  overflow: hidden; }
 
 @media screen and (min-width: 480px) {
   .home-hero {
@@ -1244,6 +1257,10 @@ footer {
       border: none; } }
 @media screen and (min-width: 1200px) {
   section {
-    padding: 60px 5% 64px 5%; } }
+    padding: 60px 5% 64px 5%; }
+
+  .menu-items {
+    width: 75%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=style.css.map */
