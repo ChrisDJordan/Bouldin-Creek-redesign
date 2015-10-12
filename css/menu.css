@@ -1,12 +1,35 @@
 section {
-  padding: 60px 0 64px 0; }
+    padding: 60px 0 64px 0;
+}
 
 .img-none {
-  display: none; }
+    display: none;
+}
 
 .menu-about h2 {
-  color: #0597f2; }
+    color: #0597f2;
+}
+
 .menu-about p {
-  padding-bottom: 20px; }
+    padding-bottom: 20px;
+}
+
+
+.checkout-out-later{
+  	display: none;
+  	color:blue;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*# sourceMappingURL=menu.css.map */

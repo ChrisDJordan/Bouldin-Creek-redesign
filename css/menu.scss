@@ -1,18 +1,37 @@
-section{
-    padding:60px 0 64px 0;
-
+section {
+    padding: 60px 0 64px 0;
 }
 
-.img-none{
-    display:none;
+.img-none {
+    display: none;
 }
 
-.menu-about{
+.menu-about {
+    h2 {
+        color: #0597f2;
+    }
+    p {
+        padding-bottom: 20px;
+    }
 
-    h2{
-        color:#0597f2;
+    .checkout-later{
+  	display: none;
+  	color:red;
+  
+  }
+  .checkout-now{
+  	text-align:center;
+  	padding-bottom:50px;
+  }
 }
-p{
-    padding-bottom:20px;
-}
+
+
+.menu-links{
+	overflow:hidden;
+
+	li{
+		float:left;
+		padding-right:35px;
+		padding-bottom:15px;
+	}
 }
