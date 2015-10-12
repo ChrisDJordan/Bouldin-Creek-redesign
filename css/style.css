@@ -479,7 +479,7 @@ footer {
   overflow: hidden;
   margin: 0 auto; }
   .menu-links li {
-    padding-bottom: 15px; }
+    padding-bottom: 25px; }
 
 /* Menu
 ===================================*/
@@ -490,6 +490,9 @@ footer {
   .menu-items p {
     font-size: 16px;
     max-width: 300px; }
+    .menu-items p:nth-child(3) {
+      color: red;
+      padding-bottom: 60px; }
 
 .price {
   float: right;
@@ -1288,6 +1291,18 @@ footer {
 
   .menu-items {
     width: 75%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+    .menu-items h3 {
+      float: left; }
+    .menu-items h2 {
+      float: left;
+      background: red;
+      font-size: 40px; }
+    .menu-items p:nth-child(3) {
+      color: red;
+      padding-bottom: 60px;
+      float: left; }
+    .menu-items h4 {
+      clear: both; } }
 
 /*# sourceMappingURL=style.css.map */
