@@ -464,6 +464,17 @@ footer {
     text-align: center;
     color: white; }
 
+section {
+  padding: 60px 0 64px 0; }
+
+.img-none {
+  display: none; }
+
+.menu-about h2 {
+  color: #0597f2; }
+.menu-about p {
+  padding-bottom: 20px; }
+
 @media screen and (min-width: 480px) {
   .home-hero {
     min-height: 360px;
@@ -552,7 +563,8 @@ footer {
       padding-right: 0; } }
 @media screen and (min-width: 768px) and (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left; }
+    float: left;
+    min-height: 1px; }
 
   .col-sm-12 {
     width: 100%; }
@@ -708,7 +720,8 @@ footer {
     margin-left: 0; } }
 @media screen and (min-width: 768px) and (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left; }
+    float: left;
+    min-height: 1px; }
 
   .col-md-12 {
     width: 100%; }
@@ -1154,6 +1167,23 @@ footer {
     font-size: 18px;
     max-width: 400px; } }
 @media screen and (min-width: 1200px) {
+  header {
+    background: #332C29;
+    width: 100%;
+    overflow: hidden;
+    padding: .5rem 0;
+    position: relative;
+    z-index: 10; }
+    header .wrap {
+      max-width: 75%;
+      margin: 0 auto;
+      overflow: hidden; }
+    header .logo {
+      display: inline-block;
+      font-size: 36px;
+      color: white;
+      font-family: "tablet-gothic-compressed",sans-serif; }
+
   .home-hero {
     min-height: 550px;
     background-position: 100% -280px; }
@@ -1176,5 +1206,11 @@ footer {
     font-size: 1.8rem; }
   .contact-section p {
     font-size: 1.4rem; } }
+@media screen and (min-width: 768px) {
+  .img-none {
+    display: block; }
+
+  .container {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

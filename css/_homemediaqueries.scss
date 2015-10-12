@@ -76,10 +76,9 @@
 
 @media screen and (min-width: 768px) {
     @import "mixin";
-    header {
-        // background: pink;
-   
-    }
+
+
+
     h2 {
         font-size: 50px;
         margin-top: -10px;
@@ -233,6 +232,9 @@
             padding-top: 10px;
         }
     }
+
+
+
     .home-hero {
         .hero-container {
             width: 75%;
@@ -279,6 +281,29 @@
         // background: green;
    
     }
+
+        header {
+    background: #332C29;
+    // background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    overflow: hidden;
+    padding: .5rem 0;
+    position: relative;
+    z-index: 10;
+    .wrap {
+        max-width: 75%;
+        // background: yellow;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .logo{
+        display: inline-block;
+        font-size:36px;
+        color:white;
+   font-family: "tablet-gothic-compressed",sans-serif;
+   
+    }
+}
     .home-hero {
         min-height: 550px;
         background-position: 100% -280px;
