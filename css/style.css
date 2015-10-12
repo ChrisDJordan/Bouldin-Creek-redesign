@@ -472,12 +472,8 @@ footer {
 .img-none {
   display: none; }
 
-.menu-items {
-  width: 90%;
-  margin: 0 auto;
-  background: red;
-  overflow: hidden; }
-
+/*  Links For Menu
+===================================*/
 .menu-links {
   padding: 0 5% 0 5%;
   overflow: hidden;
@@ -485,23 +481,38 @@ footer {
   .menu-links li {
     padding-bottom: 15px; }
 
-.food-fix {
-  padding: 0; }
+/* Menu
+===================================*/
+.menu-items {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
+  .menu-items p {
+    font-size: 16px;
+    max-width: 300px; }
 
-.col-lg-6 {
-  padding-bottom: 100px; }
+.price {
+  float: right;
+  font-size: 1.5em;
+  position: relative;
+  top: 2px;
+  font-size: 20px;
+  font-family: "tablet-gothic-compressed",sans-serif; }
 
-.heeey {
-  background: green;
+.omlets {
   overflow: hidden; }
 
 .plates {
-  background: purple;
   overflow: hidden; }
 
 .tacos {
-  background: blue;
   overflow: hidden; }
+
+/* Fixes Img From Home Page
+===================================*/
+.food-fix {
+  padding: 0;
+  display: none; }
 
 @media screen and (min-width: 480px) {
   .home-hero {
@@ -1069,10 +1080,6 @@ footer {
     font-size: 50px;
     margin-top: -10px; }
 
-  p {
-    font-size: 17px;
-    padding: 0 10% 0 0; }
-
   .home-hero .text-contain .hero-text {
     overflow: hidden;
     width: 90% 0px; }
@@ -1094,6 +1101,8 @@ footer {
       min-height: 35px;
       margin-top: 35px;
       float: right; }
+    .about-section p {
+      padding: 0 10% 0 0; }
 
   .contact-section {
     padding: 0; }
@@ -1234,6 +1243,13 @@ footer {
     font-size: 1.8rem; }
   .contact-section p {
     font-size: 1.4rem; } }
+@media screen and (min-width: 480px) {
+  .menu-items {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden; }
+    .menu-items p {
+      max-width: 550px; } }
 @media screen and (min-width: 768px) {
   .img-none {
     display: block; }
@@ -1255,6 +1271,17 @@ footer {
       padding-left: 15px; }
     .menu-links li:last-child {
       border: none; } }
+@media screen and (min-width: 992px) {
+  .food-fix {
+    padding: 0;
+    display: block; }
+
+  .col-md-6 {
+    padding-bottom: 100px;
+    padding-right: 10%;
+    max-width: 45%; }
+    .col-md-6:last-of-type {
+      padding-right: 0; } }
 @media screen and (min-width: 1200px) {
   section {
     padding: 60px 5% 64px 5%; }

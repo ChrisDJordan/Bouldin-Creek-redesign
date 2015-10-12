@@ -14,14 +14,6 @@
     display: none;
 }
 
-.menu-items {
-    width: 90%;
-    margin: 0 auto;
-    background:red;
-    overflow:hidden;
-
-}
-
 //   .checkout-later{
 // 	display: none;
 // 	color:red;
@@ -31,6 +23,9 @@
 // 	text-align:center;
 // 	padding-bottom:50px;
 // }
+
+/*  Links For Menu
+===================================*/
 
 .menu-links {
     padding: 0 5% 0 5%;
@@ -45,30 +40,56 @@
     }
 }
 
+/* Menu
+===================================*/
+.menu-items {
+    width: 90%;
+
+    margin: 0 auto;
+    // background: red;
+    overflow: hidden;
+    p{
+    	font-size:16px;
+    	max-width: 300px;
+    }
+}
+
+.price {
+    float: right;
+    font-size: 1.5em;
+    position:relative;
+    top:2px;
+    font-size:20px;
+  
+   
+   
+    font-family: "tablet-gothic-compressed",sans-serif;
+}
+
+.omlets {
+    // background: green;
+    overflow: hidden;
+}
+
+.plates {
+    // background: purple;
+    overflow: hidden;
+}
+
+.tacos {
+    // background: blue;
+    overflow: hidden;
+}
+
+/* Fixes Img From Home Page
+===================================*/
+
 .food-fix {
     padding: 0;
-}
-
-.col-lg-6 {
-    padding-bottom: 100px;
-}
-
-.heeey{
-	background:green;
-	overflow:hidden;
+    display: none;
 }
 
 
 
+   
 
-.plates{
-	background:purple;
-	overflow:hidden;
-}
-
-
-.tacos{
-	background:blue;
-	overflow:hidden;
-
-}
