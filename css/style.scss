@@ -286,10 +286,16 @@ img {
 
 /* Events Section
 ===================================*/
+  .purple{
+     background: #a19ab3;
+    width:100%;
+
+  }
 
 .events-section {
     background: #a19ab3;
-    padding: 60px 0 64px 0;
+    padding: 60px 5% 64px 5%;
+       overflow:hidden;
     h2 {
         color: #fff;
         padding-top: 10px;
@@ -299,6 +305,10 @@ img {
         &:last-of-type {
             padding-bottom: 0;
         }
+    }
+
+    h2,p{
+        padding-left:3rem;
     }
     a {
         padding-bottom: 20px;

@@ -164,9 +164,7 @@
         .container {
             width: 100%;
         }
-        h2, p {
-               padding-left: 3rem;
-        }
+      
         h2 {
             padding-top: 50px;
         }
@@ -174,6 +172,9 @@
             font-size: 16px;
             font-size: 1rem;
             padding-bottom: 15px;
+        }
+        h2,p{
+            padding-left:3rem;
         }
     }
     .food-section {
@@ -210,14 +211,12 @@
     }
     .events-section {
         padding: 0;
-        .container {
-            width: 100%;
-        }
+      
         h2 {
             padding-top: 50px;
         }
         h2, a {
-            padding-left: 12%;
+            padding-left: 3rem;
         }
     }
     footer {

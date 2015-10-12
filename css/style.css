@@ -435,9 +435,14 @@ header {
 
 /* Events Section
 ===================================*/
+.purple {
+  background: #a19ab3;
+  width: 100%; }
+
 .events-section {
   background: #a19ab3;
-  padding: 60px 0 64px 0; }
+  padding: 60px 5% 64px 5%;
+  overflow: hidden; }
   .events-section h2 {
     color: #fff;
     padding-top: 10px; }
@@ -445,6 +450,8 @@ header {
     padding-bottom: 20px; }
     .events-section p:last-of-type {
       padding-bottom: 0; }
+  .events-section h2, .events-section p {
+    padding-left: 3rem; }
   .events-section a {
     padding-bottom: 20px; }
 
@@ -1077,14 +1084,14 @@ footer {
     padding: 0  0 0px 0; }
     .know-section .container {
       width: 100%; }
-    .know-section h2, .know-section p {
-      padding-left: 3rem; }
     .know-section h2 {
       padding-top: 50px; }
     .know-section p {
       font-size: 16px;
       font-size: 1rem;
       padding-bottom: 15px; }
+    .know-section h2, .know-section p {
+      padding-left: 3rem; }
 
   .food-section .offset {
     display: block;
@@ -1113,12 +1120,10 @@ footer {
 
   .events-section {
     padding: 0; }
-    .events-section .container {
-      width: 100%; }
     .events-section h2 {
       padding-top: 50px; }
     .events-section h2, .events-section a {
-      padding-left: 12%; }
+      padding-left: 3rem; }
 
   footer p {
     padding: 0; } }
