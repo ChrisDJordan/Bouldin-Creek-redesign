@@ -1,6 +1,9 @@
 // main section-------------------------------
 
 section {
+
+    
+   
     .col10 {
         h1 {
             margin-top: 55px;
@@ -10,6 +13,7 @@ section {
         }
         img {
             max-width: 100%;
+            
         }
     }
     .col6 {
@@ -29,6 +33,7 @@ section {
             }
         }
         li {
+           
             margin-bottom: 28px;
             &:last-child {
                 margin-bottom: 0px;
@@ -46,6 +51,7 @@ section {
 }
 
 .menu {
+   
     h4 {
         margin-top: 40px;
     }
@@ -77,7 +83,8 @@ footer {
     }
 }
 
-.logo {
+
+.logo{
     line-height: 1;
-    margin: 1rem 0 1rem 0;
+    margin:1rem 0 1rem 0;
 }
