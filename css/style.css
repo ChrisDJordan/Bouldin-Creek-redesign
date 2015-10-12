@@ -305,12 +305,16 @@ header {
 ===================================*/
 .about-section {
   background: #f36639;
-  padding: 60px 0 64px 0;
+  padding: 60px 5% 64px 5%;
   overflow: hidden; }
   .about-section h2 {
     color: white; }
   .about-section p {
     padding-bottom: 20px; }
+
+.orange {
+  background: #f36639;
+  width: 100%; }
 
 /* Contact Us Section
 ===================================*/
@@ -374,9 +378,14 @@ header {
 
 /* Food Section
 ===================================*/
+.green {
+  background: #A4CC9F;
+  width: 100%; }
+
 .food-section {
   background: #A4CC9F;
-  padding: 60px 0 64px 0; }
+  padding: 60px 5% 64px 5%;
+  overflow: hidden; }
   .food-section h2 {
     color: white; }
   .food-section p {
@@ -415,9 +424,14 @@ header {
 
 /* Drinks Section
 ===================================*/
+.blue {
+  background: #7edde1;
+  width: 100%; }
+
 .drinks-section {
   background: #7edde1;
-  padding: 60px 0 64px 0; }
+  padding: 60px 5% 64px 5%;
+  overflow: hidden; }
   .drinks-section h2 {
     color: white; }
   .drinks-section p {
@@ -882,10 +896,12 @@ footer {
     width: 25%; }
 
   .col-lg-2 {
-    width: 16.66666667%; }
+    width: 16.66666667%;
+    min-height: 1px; }
 
   .col-lg-1 {
-    width: 8.33333333%; }
+    width: 8.33333333%;
+    min-height: 1px; }
 
   .col-lg-pull-12 {
     right: 100%; }
@@ -1028,7 +1044,7 @@ footer {
       margin-top: 1.8em; }
 
   .about-section {
-    padding: 50px 0 0 0; }
+    margin: 0 auto; }
     .about-section .offset {
       display: block;
       background: #7edde1;
@@ -1042,7 +1058,7 @@ footer {
     .contact-section .container {
       width: 100%; }
     .contact-section h2, .contact-section p, .contact-section a {
-      padding-left: 10%; }
+      padding-left: 3rem; }
     .contact-section h2 {
       padding-top: 50px; }
     .contact-section a {
@@ -1055,8 +1071,10 @@ footer {
     padding: 0px 0 0px 0; }
     .location-section .container {
       width: 100%; }
-    .location-section h2 {
-      padding-top: 50px; }
+
+    .location-section h2, .location-section p {
+      padding-left: 3rem; }
+
     .location-section p {
       font-size: 1.5rem;
       max-width: 300px; }
@@ -1066,7 +1084,10 @@ footer {
     .know-section .container {
       width: 100%; }
     .know-section h2, .know-section p {
-      padding-left: 10%; }
+
+
+      padding-left: 3rem; }
+
     .know-section h2 {
       padding-top: 50px; }
     .know-section p {
@@ -1097,7 +1118,10 @@ footer {
     background: #A4CC9F;
     margin-top: -60px; }
   .drinks-section h2, .drinks-section p, .drinks-section a {
-    padding-left: 10%; }
+
+
+    padding-left: 3rem; }
+
 
   .events-section {
     padding: 0; }
@@ -1135,10 +1159,27 @@ footer {
 
   .know-section p {
     font-size: 18px;
+
     max-width: 400px; }
 
   .about-section .container, .drinks-section .container, .food-section .container {
     width: 75%; }
+
+@media screen and (min-width: 1200px) {
+  .home-hero {
+    min-height: 550px;
+    background-position: 100% -280px; }
+    .home-hero .text-contain .hero-text {
+      overflow: hidden;
+      width: 90% 0px; }
+      .home-hero .text-contain .hero-text .welcome {
+        font-size: 3.5rem;
+        margin-top: 8.2em;
+        margin-right: 5px; }
+      .home-hero .text-contain .hero-text .bouldin {
+        font-size: 4.8rem;
+        margin-top: 3.7em; }
+
 
   .location-section h2, .location-section p {
     padding-left: 25%; }

@@ -1,6 +1,7 @@
 @media screen and (min-width: 480px) {
     header {
         // background: yellow;
+   
     }
     .home-hero {
         min-height: 360px;
@@ -21,6 +22,7 @@
 @media screen and (min-width: 550px) {
     header {
         // background: purple;
+   
     }
     // .container{
     //     width:80%;
@@ -49,6 +51,7 @@
 @media screen and (min-width: 700px) {
     header {
         // background: black;
+   
     }
     .home-hero {
         min-height: 500px;
@@ -75,6 +78,7 @@
     @import "mixin";
     header {
         // background: pink;
+   
     }
     h2 {
         font-size: 50px;
@@ -85,7 +89,6 @@
         padding: 0 10% 0 0;
     }
     .home-hero {
-  
         .text-contain {
             // margin-right:8%;
             .hero-text {
@@ -96,7 +99,7 @@
                     font-size: 3.5rem;
                     margin-top: 5.6em;
                     margin-right: 10px;
-                    padding-bottom:10px;
+                    padding-bottom: 10px;
                 }
                 .bouldin {
                     font-size: 4.8rem;
@@ -107,12 +110,7 @@
     }
     .about-section {
         padding: 50px 0 0 0;
-          .container {
-       
-
-         
-        }
-
+        .container {}
         .offset {
             display: block;
             background: $lightblue;
@@ -120,17 +118,16 @@
             min-height: 35px;
             margin-top: 35px;
             float: right;
-
         }
+        h2, p {}
     }
     .contact-section {
         padding: 0;
         .container {
-       
             width: 100%;
         }
         h2, p, a {
-            padding-left: 10%;
+            padding-left: 3rem;
         }
         h2 {
             padding-top: 50px;
@@ -138,8 +135,8 @@
         a {
             font-size: 1.4rem;
         }
-        p{
-            font-size:16px;
+        p {
+            font-size: 16px;
         }
     }
     .location-section {
@@ -148,39 +145,29 @@
         .container {
             width: 100%;
         }
-        // h2, p {
-        //     padding-left: 12%;
-        // }
-        h2 {
-            padding-top: 50px;
+        h2, p {
+            padding-left: 3rem;
         }
         p {
             font-size: 1.5rem;
-           max-width: 300px;
+            max-width: 300px;
         }
-
-      
-       
     }
     .know-section {
         padding: 0  0 0px 0;
         .container {
             width: 100%;
         }
-
-        h2,p{
-               padding-left: 10%;
-
+        h2, p {
+            padding-left: 3rem;
         }
         h2 {
             padding-top: 50px;
-         
         }
         p {
-          
             font-size: 16px;
             font-size: 1rem;
-            padding-bottom:15px;
+            padding-bottom: 15px;
         }
     }
     .food-section {
@@ -211,21 +198,18 @@
             background: #A4CC9F;
             margin-top: -60px;
         }
-
-    h2, p, a {
-        padding-left: 10%;
-    }
-
+        h2, p, a {
+            padding-left: 3rem;
+        }
     }
     .events-section {
-            padding: 0;
-
-        .container{
-            width:100%;
+        padding: 0;
+        .container {
+            width: 100%;
         }
-h2{
-    padding-top:50px;
-}
+        h2 {
+            padding-top: 3rem;
+        }
         h2, a {
             padding-left: 10%;
         }
@@ -244,23 +228,14 @@ h2{
             padding-top: 10px;
         }
     }
-
-
-.home-hero {
- 
-    .hero-container {
-        
-        width: 75%;
-  
-   
+    .home-hero {
+        .hero-container {
+            width: 75%;
+        }
     }
- }
     h2 {
         font-size: 65px;
     }
-
-
-
     .home-hero {
         min-height: 650px;
         .text-contain {
@@ -287,41 +262,57 @@ h2{
             max-width: 400px;
         }
     }
-    
-  .about-section,.drinks-section, .food-section{
-.container{
-    width:75%;
-
-
+    .location-section {
+        h2, p {
+            padding-left: 25%;
+        }
+        p {
+            font-size: 30px;
+        }
     }
-
-}
-
-
-.location-section{
-      
-    h2,p{
-        padding-left:25%;
+    .events-section {
+        padding-left: 3rem;
     }
+}
 
-    p{
-        font-size:30px;
+@media screen and (min-width: 1200px) {
+    header {
+        // background: green;
+   
     }
-
-
-
-
-
+    .home-hero {
+        min-height: 550px;
+        background-position: 100% -280px;
+        .text-contain {
+            // margin-right:8%;
+            .hero-text {
+                // background: orange;
+                overflow: hidden;
+                width: 90% 0px;
+                .welcome {
+                    font-size: 3.5rem;
+                    margin-top: 8.2em;
+                    margin-right: 5px;
+                }
+                .bouldin {
+                    font-size: 4.8rem;
+                    margin-top: 3.7em;
+                }
+            }
+        }
+    }
+    .about-section {
+        p {
+            max-width: 500px;
+            font-size: 1.3rem;
+        }
+    }
+    .contact-section {
+        a {
+            font-size: 1.8rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
 }
-
-.events-section{
-    padding-left:14%;
-}
-
-     
-
-}
-
-
-
-
