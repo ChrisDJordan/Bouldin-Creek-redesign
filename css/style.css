@@ -493,6 +493,9 @@ footer {
     .menu-items p:nth-child(3) {
       color: red;
       padding-bottom: 60px; }
+    .menu-items p:nth-child(5) {
+      color: green;
+      padding-bottom: 45px; }
 
 .price {
   float: right;
@@ -501,6 +504,9 @@ footer {
   top: 2px;
   font-size: 20px;
   font-family: "tablet-gothic-compressed",sans-serif; }
+
+ul {
+  padding-bottom: 100px; }
 
 .omlets {
   overflow: hidden; }
@@ -1293,16 +1299,22 @@ footer {
     width: 75%;
     margin: 0 auto; }
     .menu-items h3 {
-      float: left; }
-    .menu-items h2 {
       float: left;
-      background: red;
-      font-size: 40px; }
+      position: relative;
+      top: 17px;
+      padding-right: .5rem; }
+    .menu-items h2 {
+      float: left; }
     .menu-items p:nth-child(3) {
       color: red;
-      padding-bottom: 60px;
+      padding-bottom: 40px;
       float: left; }
     .menu-items h4 {
-      clear: both; } }
+      clear: both; }
+
+  .food-fix {
+    padding: 0;
+    display: block;
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

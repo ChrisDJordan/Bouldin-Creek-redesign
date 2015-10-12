@@ -44,32 +44,36 @@
 ===================================*/
 .menu-items {
     width: 90%;
-
     margin: 0 auto;
     // background: red;
     overflow: hidden;
-    p{
-    	font-size:16px;
-    	max-width: 300px;
-    &:nth-child(3){
-    	color:red;
-    	padding-bottom:60px;
-    }
+    p {
+        font-size: 16px;
+        max-width: 300px;
+        &:nth-child(3) {
+            color: red;
+            padding-bottom: 60px;
+        }
+        &:nth-child(5){
+        	color:green;
+        	padding-bottom:45px;
+
+        }
     }
 }
 
 .price {
     float: right;
     font-size: 1.5em;
-    position:relative;
-    top:2px;
-    font-size:20px;
-  
-   
-   
+    position: relative;
+    top: 2px;
+    font-size: 20px;
     font-family: "tablet-gothic-compressed",sans-serif;
 }
 
+ul{
+	padding-bottom:100px;
+}
 .omlets {
     // background: green;
     overflow: hidden;
@@ -92,8 +96,3 @@
     padding: 0;
     display: none;
 }
-
-
-
-   
-
