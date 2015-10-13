@@ -241,6 +241,10 @@ h5 {
 
 /* Main Styling
 ===================================*/
+.contain-all {
+  max-width: 1600px;
+  margin: 0 auto; }
+
 img {
   width: 100%; }
 
@@ -500,7 +504,8 @@ footer {
     max-width: 700px; }
   .menu .float {
     float: left;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    clear: both; }
   .menu p {
     font-size: 16px; }
     .menu p:nth-child(5) {
@@ -1297,14 +1302,6 @@ footer {
 
     /* ?
 ===================================*/
-  .checkout-later {
-    display: block;
-    text-align: center;
-    padding-bottom: 20px; }
-
-  .checkout-now {
-    display: none; }
-
  /*  Links For Menu
 ===================================*/
   .menu-links li {
@@ -1319,11 +1316,6 @@ footer {
 
   /* Menu
   ===================================*/
-  .menu h3 {
-    float: left;
-    position: relative;
-    top: 17px;
-    padding-right: .5rem; }
   .menu h2 {
     float: left; }
   .menu .float {
@@ -1344,9 +1336,6 @@ footer {
     display: block;
     max-width: 700px; } }
 @media screen and (min-width: 1200px) {
-  section {
-    padding: 60px 5% 64px 5%; }
-
   .menu {
     width: 75%;
     margin: 0 auto; }
