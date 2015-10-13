@@ -242,7 +242,6 @@ h5 {
 /* Main Styling
 ===================================*/
 .contain-all {
-  max-width: 1600px;
   margin: 0 auto; }
 
 img {
@@ -440,8 +439,6 @@ header {
     padding-bottom: 20px; }
     .events-section p:last-of-type {
       padding-bottom: 0; }
-  .events-section h2, .events-section p {
-    padding-left: 3rem; }
   .events-section a {
     padding-bottom: 20px; }
 
@@ -549,38 +546,13 @@ footer {
 
   .home-hero {
     min-height: 360px;
-    background-position: 100%; }
-    .home-hero .hero-text .welcome {
-      font-size: 2.5rem;
-      margin-top: 188px; }
-    .home-hero .hero-text .bouldin {
-      font-size: 4rem;
-      margin-top: 37px; } }
+    background-position: 100%; } }
 @media screen and (min-width: 550px) {
   .home-hero {
-    min-height: 450px; }
-    .home-hero .text-contain .hero-text {
-      overflow: hidden; }
-      .home-hero .text-contain .hero-text .welcome {
-        font-size: 2.5rem;
-        margin-top: 7em;
-        margin-right: 5px; }
-      .home-hero .text-contain .hero-text .bouldin {
-        font-size: 4rem;
-        margin-top: 2em; } }
+    min-height: 450px; } }
 @media screen and (min-width: 700px) {
   .home-hero {
-    min-height: 500px; }
-    .home-hero .text-contain .hero-text {
-      overflow: hidden;
-      width: 90% 0px; }
-      .home-hero .text-contain .hero-text .welcome {
-        font-size: 3rem;
-        margin-top: 6.6em;
-        margin-right: 5px; }
-      .home-hero .text-contain .hero-text .bouldin {
-        font-size: 4.5rem;
-        margin-top: 2.1em; } }
+    min-height: 500px; } }
 @media screen and (min-width: 768px) {
   .col3 {
     box-sizing: border-box;
@@ -1127,17 +1099,15 @@ footer {
       font-size: 4.8rem;
       margin-top: 1.8em; }
 
-  .about-section {
-    margin: 0 auto; }
-    .about-section .offset {
-      display: block;
-      background: #7edde1;
-      width: 15%;
-      min-height: 35px;
-      margin-top: 35px;
-      float: right; }
-    .about-section p {
-      padding: 0 10% 0 0; }
+  .about-section .offset {
+    display: block;
+    background: #7edde1;
+    width: 15%;
+    min-height: 35px;
+    margin-top: 35px;
+    float: right; }
+  .about-section p {
+    padding: 0 10% 0 0; }
 
   .contact-section {
     padding: 0; }
@@ -1219,7 +1189,7 @@ footer {
       padding-top: 10px; }
 
   .home-hero .hero-container {
-    width: 75%; }
+    max-width: 1400px; }
 
   h2 {
     font-size: 65px; }
@@ -1252,7 +1222,7 @@ footer {
     position: relative;
     z-index: 10; }
     header .wrap {
-      max-width: 75%;
+      width: 75%;
       margin: 0 auto;
       overflow: hidden; }
     header .logo {

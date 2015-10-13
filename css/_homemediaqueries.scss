@@ -6,16 +6,16 @@
     .home-hero {
         min-height: 360px;
         background-position: 100%;
-        .hero-text {
-            .welcome {
-                font-size: 2.5rem;
-                margin-top: 188px;
-            }
-            .bouldin {
-                font-size: 4rem;
-                margin-top: 37px;
-            }
-        }
+        // .hero-text {
+        //     .welcome {
+        //         font-size: 2.5rem;
+        //         margin-top: 188px;
+        //     }
+        //     .bouldin {
+        //         font-size: 4rem;
+        //         margin-top: 37px;
+        //     }
+        // }
     }
 }
 
@@ -29,22 +29,22 @@
     // }
     .home-hero {
         min-height: 450px;
-        .text-contain {
-            // margin-right:5%;
-            .hero-text {
-                overflow: hidden;
-                // width: 90% 0px;
-                .welcome {
-                    font-size: 2.5rem;
-                    margin-top: 7em;
-                    margin-right: 5px;
-                }
-                .bouldin {
-                    font-size: 4rem;
-                    margin-top: 2em;
-                }
-            }
-        }
+        // .text-contain {
+        //     // margin-right:5%;
+        //     .hero-text {
+        //         overflow: hidden;
+        //         // width: 90% 0px;
+        //         .welcome {
+        //             font-size: 2.5rem;
+        //             margin-top: 7em;
+        //             margin-right: 5px;
+        //         }
+        //         .bouldin {
+        //             font-size: 4rem;
+        //             margin-top: 2em;
+        //         }
+        //     }
+        // }
     }
 }
 
@@ -55,22 +55,23 @@
     // }
     .home-hero {
         min-height: 500px;
-        .text-contain {
-            .hero-text {
-                // background: orange;
-                overflow: hidden;
-                width: 90% 0px;
-                .welcome {
-                    font-size: 3rem;
-                    margin-top: 6.6em;
-                    margin-right: 5px;
-                }
-                .bouldin {
-                    font-size: 4.5rem;
-                    margin-top: 2.1em;
-                }
-            }
-        }
+        // .text-contain {
+           
+        //     .hero-text {
+        //         // background: orange;
+        //         overflow: hidden;
+        //         width: 90% 0px;
+        //         .welcome {
+        //             font-size: 3rem;
+        //             margin-top: 6.6em;
+        //             margin-right: 5px;
+        //         }
+        //         .bouldin {
+        //             font-size: 4.5rem;
+        //             margin-top: 2.1em;
+        //         }
+        //     }
+        // }
     }
 }
 
@@ -108,7 +109,7 @@ header {
     }
 
     .about-section {
-       margin:0 auto;
+    
 
         .offset {
             display: block;
@@ -237,7 +238,7 @@ header {
 
     .home-hero {
         .hero-container {
-            width: 75%;
+            max-width: 1400px;
         }
     }
     h2 {
@@ -291,7 +292,8 @@ header {
     position: relative;
     z-index: 10;
     .wrap {
-        max-width: 75%;
+        width:75%;
+   
         // background: yellow;
         margin: 0 auto;
         overflow: hidden;
