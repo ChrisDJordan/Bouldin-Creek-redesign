@@ -57,7 +57,8 @@ p, a {
 p {
   font-size: 19px;
   font-size: 1.1rem;
-  line-height: 1.4; }
+  line-height: 1.4;
+  max-width: 500px; }
 
 a {
   font-family: "fira-sans",sans-serif;
@@ -195,7 +196,8 @@ p, a {
 p {
   font-size: 19px;
   font-size: 1.1rem;
-  line-height: 1.4; }
+  line-height: 1.4;
+  max-width: 500px; }
 
 a {
   font-family: "fira-sans",sans-serif;
@@ -460,6 +462,8 @@ footer {
   background: #7edde1;
   width: 100%; }
 
+    /* Top About Section
+===================================*/
 .about-menu-section {
   background: white;
   padding: 60px 5% 64px 5%;
@@ -467,8 +471,11 @@ footer {
   .about-menu-section h2 {
     color: #0597f2; }
   .about-menu-section p {
-    padding-bottom: 20px; }
+    padding-bottom: 30px;
+    max-width: 350px; }
 
+    /* Top Offset Image
+===================================*/
 .img-none {
   display: none; }
 
@@ -478,25 +485,34 @@ footer {
   padding: 0 5% 0 5%;
   overflow: hidden;
   margin: 0 auto; }
+  .menu-links ul {
+    padding-bottom: 100px; }
   .menu-links li {
     padding-bottom: 25px; }
 
 /* Menu
 ===================================*/
-.menu-items {
+.menu {
   width: 90%;
   margin: 0 auto;
   overflow: hidden; }
-  .menu-items p {
-    font-size: 16px;
+  .menu img {
+    max-width: 700px; }
+  .menu .float {
+    float: left;
+    padding-bottom: 40px; }
+  .menu p {
+    font-size: 16px; }
+    .menu p:nth-child(5) {
+      padding-bottom: 40px; }
+  .menu h4 {
+    clear: both; }
+  .menu .omlet-items p {
+    padding-bottom: 40px;
     max-width: 300px; }
-    .menu-items p:nth-child(3) {
-      color: red;
-      padding-bottom: 60px; }
-    .menu-items p:nth-child(5) {
-      color: green;
-      padding-bottom: 45px; }
 
+/* Menu Prices
+===================================*/
 .price {
   float: right;
   font-size: 1.5em;
@@ -505,9 +521,8 @@ footer {
   font-size: 20px;
   font-family: "tablet-gothic-compressed",sans-serif; }
 
-ul {
-  padding-bottom: 100px; }
-
+/* Section Colors
+===================================*/
 .omlets {
   overflow: hidden; }
 
@@ -524,6 +539,9 @@ ul {
   display: none; }
 
 @media screen and (min-width: 480px) {
+  header {
+    background: yellow; }
+
   .home-hero {
     min-height: 360px;
     background-position: 100%; }
@@ -1085,6 +1103,9 @@ ul {
   .all-container {
     margin-top: 60px; }
 
+  header {
+    background: pink; }
+
   h2 {
     font-size: 50px;
     margin-top: -10px; }
@@ -1187,8 +1208,10 @@ ul {
   footer p {
     padding: 0; } }
 @media screen and (min-width: 992px) {
-  header .logo {
-    padding-top: 10px; }
+  header {
+    background: blue; }
+    header .logo {
+      padding-top: 10px; }
 
   .home-hero .hero-container {
     width: 75%; }
@@ -1213,6 +1236,9 @@ ul {
     font-size: 18px;
     max-width: 400px; } }
 @media screen and (min-width: 1200px) {
+  header {
+    background: green; }
+
   header {
     background: #332C29;
     width: 100%;
@@ -1253,16 +1279,24 @@ ul {
   .contact-section p {
     font-size: 1.4rem; } }
 @media screen and (min-width: 480px) {
-  .menu-items {
+  .menu {
     width: 90%;
     margin: 0 auto;
     overflow: hidden; }
-    .menu-items p {
-      max-width: 550px; } }
+    .menu p {
+      max-width: 500px; } }
+@media screen and (min-width: 550px) {
+  .menu .omlet-items p {
+    padding-bottom: 40px;
+    max-width: 500px; } }
 @media screen and (min-width: 768px) {
+    /* Top Offset Image
+===================================*/
   .img-none {
     display: block; }
 
+    /* ?
+===================================*/
   .checkout-later {
     display: block;
     text-align: center;
@@ -1271,6 +1305,8 @@ ul {
   .checkout-now {
     display: none; }
 
+ /*  Links For Menu
+===================================*/
   .menu-links li {
     display: inline-block;
     padding-bottom: 0;
@@ -1279,42 +1315,46 @@ ul {
       padding-right: 15px;
       padding-left: 15px; }
     .menu-links li:last-child {
-      border: none; } }
-@media screen and (min-width: 992px) {
-  .food-fix {
-    padding: 0;
-    display: block; }
+      border: none; }
 
+  /* Menu
+  ===================================*/
+  .menu h3 {
+    float: left;
+    position: relative;
+    top: 17px;
+    padding-right: .5rem; }
+  .menu h2 {
+    float: left; }
+  .menu .float {
+    padding-bottom: 45px; } }
+@media screen and (min-width: 992px) {
+    /* Grid Spacing Change
+===================================*/
   .col-md-6 {
-    padding-bottom: 100px;
     padding-right: 10%;
     max-width: 45%; }
     .col-md-6:last-of-type {
-      padding-right: 0; } }
+      padding-right: 0; }
+
+  /* Fixes Img From Home Page
+  ===================================*/
+  .food-fix {
+    padding: 0;
+    display: block;
+    max-width: 700px; } }
 @media screen and (min-width: 1200px) {
   section {
     padding: 60px 5% 64px 5%; }
 
-  .menu-items {
+  .menu {
     width: 75%;
     margin: 0 auto; }
-    .menu-items h3 {
-      float: left;
-      position: relative;
-      top: 17px;
-      padding-right: .5rem; }
-    .menu-items h2 {
-      float: left; }
-    .menu-items p:nth-child(3) {
-      color: red;
-      padding-bottom: 40px;
-      float: left; }
-    .menu-items h4 {
-      clear: both; }
+    .menu .omlet-items {
+      overflow: hidden;
+      margin-top: 0px; }
 
-  .food-fix {
-    padding: 0;
-    display: block;
-    margin-bottom: 50px; } }
+  p {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=style.css.map */

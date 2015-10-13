@@ -1,3 +1,6 @@
+    /* Top About Section
+===================================*/
+
 .about-menu-section {
     background: white;
     padding: 60px 5% 64px 5%;
@@ -6,22 +9,25 @@
         color: $darkblue;
     }
     p {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+        max-width: 350px;
     }
 }
 
+    /* Top Offset Image
+===================================*/
 .img-none {
     display: none;
 }
 
 //   .checkout-later{
-// 	display: none;
-// 	color:red;
+//  display: none;
+//  color:red;
 
 // }
 // .checkout-now{
-// 	text-align:center;
-// 	padding-bottom:50px;
+//  text-align:center;
+//  padding-bottom:50px;
 // }
 
 /*  Links For Menu
@@ -31,36 +37,49 @@
     padding: 0 5% 0 5%;
     overflow: hidden;
     margin: 0 auto;
-    // width:80%;
-    // background:red;
+    ul {
+        padding-bottom: 100px;
+    }
     li {
-        // float:left;
-        // padding-right:55px;
         padding-bottom: 25px;
     }
 }
 
 /* Menu
 ===================================*/
-.menu-items {
+.menu {
     width: 90%;
     margin: 0 auto;
     // background: red;
     overflow: hidden;
+    img {
+        max-width: 700px;
+    }
+    .float {
+        float: left;
+        padding-bottom: 40px;
+    }
     p {
         font-size: 16px;
-        max-width: 300px;
-        &:nth-child(3) {
-            color: red;
-            padding-bottom: 60px;
+        &:nth-child(5) {
+            // color: green;
+            padding-bottom: 40px;
         }
-        &:nth-child(5){
-        	color:green;
-        	padding-bottom:45px;
-
+    }
+    h4 {
+        clear: both;
+    }
+    .omlet-items {
+        p {
+            // color:red;
+            padding-bottom: 40px;
+            max-width: 300px;
         }
     }
 }
+
+/* Menu Prices
+===================================*/
 
 .price {
     float: right;
@@ -71,9 +90,8 @@
     font-family: "tablet-gothic-compressed",sans-serif;
 }
 
-ul{
-	padding-bottom:100px;
-}
+/* Section Colors
+===================================*/
 .omlets {
     // background: green;
     overflow: hidden;

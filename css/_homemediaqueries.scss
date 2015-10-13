@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
     header {
-        // background: yellow;
+        background: yellow;
    
     }
     .home-hero {
@@ -20,10 +20,10 @@
 }
 
 @media screen and (min-width: 550px) {
-    header {
-        // background: purple;
+    // header {
+    //     background: purple;
    
-    }
+    // }
     // .container{
     //     width:80%;
     // }
@@ -49,10 +49,10 @@
 }
 
 @media screen and (min-width: 700px) {
-    header {
-        // background: black;
+    // header {
+    //     background: black;
    
-    }
+    // }
     .home-hero {
         min-height: 500px;
         .text-contain {
@@ -76,7 +76,9 @@
 
 @media screen and (min-width: 768px) {
     @import "mixin";
-
+header {
+        background: pink;
+    }
 
 
     h2 {
@@ -225,7 +227,7 @@
 
 @media screen and (min-width: 992px) {
     header {
-        // background: blue;
+        background: blue;
         .logo {
             padding-top: 10px;
         }
@@ -276,7 +278,7 @@
 
 @media screen and (min-width: 1200px) {
     header {
-        // background: green;
+        background: green;
    
     }
 

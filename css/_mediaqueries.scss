@@ -1,27 +1,47 @@
 @media screen and (min-width: 480px) {
-    .menu-items {
+    .menu {
         width: 90%;
         margin: 0 auto;
         // background: red;
         overflow: hidden;
         p {
-            max-width: 550px;
+            max-width: 500px;
         }
     }
 }
 
-@media screen and (min-width: 550px) {}
+@media screen and (min-width: 550px) {
+    .menu {
+        .omlet-items {
+            p {
+                padding-bottom: 40px;
+                max-width: 500px;
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 700px) {}
 
 @media screen and (min-width: 768px) {
-	.menu-items{
 
-	}
+
+
+
+
+
+
+
+    /* Top Offset Image
+===================================*/
     .img-none {
         display: block;
+
     }
-    .checkout-later {
+
+    /* ?
+===================================*/
+.checkout-later {
         display: block;
         text-align: center;
         padding-bottom: 20px;
@@ -29,6 +49,15 @@
     .checkout-now {
         display: none;
     }
+
+
+
+
+
+ /*  Links For Menu
+===================================*/
+
+
     .menu-links {
         ul {}
         li {
@@ -45,16 +74,31 @@
             &:nth-child(1) {}
         }
     }
+
+
+/* Menu
+===================================*/ 
+     .menu {
+        h3 {
+            float: left;
+            position: relative;
+            top: 17px;
+            padding-right: .5rem;
+        }
+        h2 {
+            float: left;
+        }
+        .float {
+            padding-bottom: 45px;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
-    .food-fix {
-        padding: 0;
-        display: block;
-   
-    }
+
+    /* Grid Spacing Change
+===================================*/ 
     .col-md-6 {
-        padding-bottom: 100px;
         padding-right: 10%;
         max-width: 45%;
         // background:red;
@@ -62,40 +106,34 @@
             padding-right: 0;
         }
     }
+/* Fixes Img From Home Page
+===================================*/
+
+    .food-fix {
+        padding: 0;
+        display: block;
+        max-width:700px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
     section {
         padding: 60px 5% 64px 5%;
     }
-    .menu-items {
+    .menu {
         width: 75%;
         margin: 0 auto;
-        h3 {
-            float: left;
-            position:relative;
-            top:17px;
-            padding-right:.5rem;
-        }
-        h2 {
-            float: left;
-          
-            
-        }
-        p {
-            &:nth-child(3) {
-                color: red;
-                padding-bottom: 40px;
-                float: left;
-            }
-        }
-        h4 {
-            clear: both;
+    
+   
+        .omlet-items {
+            overflow: hidden;
+            margin-top: 0px;
         }
     }
-    .food-fix {
-        padding: 0;
-        display: block;
-        margin-bottom:50px;
+    p{
+    	font-size:18px;
     }
 }
+
+@media screen and (min-width: 1400px) {}
